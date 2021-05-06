@@ -27,9 +27,9 @@ namespace WagePerDay
             break;
         }
 
-        empWage = EMP_RATE_PER_HOUR* empHrs;
-        Console.WriteLine("Employee Wage Per Day:" + empWage);
-            Console.ReadKey();
+             empWage = EMP_RATE_PER_HOUR* empHrs;
+             Console.WriteLine("Employee Wage Per Day:" + empWage);
+             Console.ReadKey();
         }
     }
 }
